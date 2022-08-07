@@ -1,0 +1,58 @@
+ .header{
+  width: auto;
+  font-size: 24px;
+  padding: 10px 0 10px 30px;
+ background-color:whitesmoke;
+  
+ }
+ .one{
+  /* display: inline-block; */
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  margin: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+  font-size: 20px;
+  
+ }
+ .one a{
+  text-decoration: none;
+ }
+ .flex-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  background-color:aqua;
+  
+ }
+ .flx-item{
+  height: 200px; 
+  width: 200px;
+  background-color: red;
+  padding: 20px;
+ margin: 20px;
+ }
+ /* .flx-itemitem4 {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+ }
+ .flx-itemitem5 {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+ }
+ .flx-itemitem6 {
+  position: absolute;
+  top: 500px;
+  right: 100px;
+ } */
+
+
+
+
+
+ 
+

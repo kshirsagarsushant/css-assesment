@@ -1,0 +1,147 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-image:linear-gradient(
+   to right, red,green,yellow
+  ) ;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0;
+}
+.first{
+  background-color: gray;
+  border: 3px solid red;
+  border-radius: 10px;
+  width: 700px;
+  height: 70px;
+  margin: 20px auto;
+  text-align: center;
+  padding-bottom: 5px;
+
+}
+.grid-container{
+display: grid;
+background-color: rgb(148, 212, 236);
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+gap: 0 20px;
+
+
+
+}
+.grid-item{
+height: 50px;
+
+background-color: rgb(148, 212, 236);
+border: 3px solid green;
+border-radius: 10px;
+padding: 0 10px;
+
+}
+.item4{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  
+}
+.header2{
+  background-image: linear-gradient(
+    to right,red, yellow ,red
+  );
+  text-align: center;
+  vertical-align: top;
+  height: 35px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  margin-bottom: 20px;
+}
+.flex-container{
+  display: flex;
+  background-image: linear-gradient(
+    to left,  pink,blue,pink
+  );
+height: 300px;
+justify-content: space-evenly;
+margin-bottom: 20px;
+}
+.felx-item{
+  height: 100px;
+  width: 150px;
+ background-color: yellow;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  
+}
+.item1{
+  text-decoration: underline;
+  padding: 10px 20px;
+  padding-top: 0;
+  text-align: center;
+}
+.item2{
+  text-decoration: underline;
+  padding: 10px 20px;
+  padding-top: 0;
+  text-align: center;
+}
+.item3{
+  text-decoration: underline;
+  padding: 10px 20px;
+  padding-top: 0;
+  text-align: center;
+}
+.item4{
+  text-decoration: underline;
+  padding: 10px 20px;
+  padding-top: 0;
+  text-align: center;
+}
+.grid-container1{
+display: grid;
+background-color:blue;
+grid-template-rows: auto 70px 100px 20px ;
+grid-template-columns: auto auto auto auto ; 
+gap: 20px 20px;
+width: 100%;
+
+}
+.grid-item1{
+  background-color: red; 
+  color: white;
+  
+}
+.item11{
+  grid-column: 1/-1;
+  height: 40px;
+  background-color: green;
+  text-align: center;
+  vertical-align: middle;
+}
+.item22{
+  text-align: center;
+  background-color: green;
+}
+.item55{
+  background-color: black;
+  grid-row: 2/4;
+  grid-column: 4/5;
+  text-decoration: underline;
+  
+}
+.item66{
+  background-color: orangered;
+  grid-column: 1/4;
+  font-size: 20px;
+}
+.item77{
+grid-column: 1/-1;
+background-color: aqua;
+text-align: center;
+color: black;
+
+
+}
