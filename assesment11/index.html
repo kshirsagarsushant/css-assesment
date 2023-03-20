@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>assesmet11</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>que1 . What is CSS an why use it</h1>
+  <h4>CSS stands for cascading style sheet . its basically used to create good looking websites by describing how the html elements are displayed on the screen . it also controls the layout of the websites <br> why css - <br>
+     CSS is a core technology in web development. <br>
+     CSS specifies the presentation of HTML documents. <br>
+    This includes colors, backgrounds, fonts, spacing, animations, etc. <br>
+     It works on all devices: desktop, tablet, mobile, etc. <br>
+     CSS is lightweight and relatively easy to learn. <br>
+    CSS along with HTML are essential skills for web developers.</h4>
+
+    <h1> que2.What are the different ways to bring CSS into an HTML file</h1>
+    <p>there are three ways to bring css in html file
+      <ol type="A">
+         <li>inline css</li>
+         <li>internal css</li>
+         <li>external css</li>
+      </ol>
+          <dl>
+            <dt>inline css -</dt>
+            <dd>inline css allows u to add styling to html elements by using style attribute it is called inline because the style is applied directly to the elements in the same line of html code <br> inline sss has highest specificity means that they will override any other styles that are applied to the same element</dd>
+          </dl>
+          <dt>internal css -</dt>
+          <dd>internal css is using style element in the head of html documents,to define the styles to to the elements in the pages u can apply the style to the elements using css selectors</dd>
+          <dt> external css -</dt>
+          <dd>to use external css u have to create css file and then u have to applu styles to elemts in that file and then u have to link that file to html document in head tag using link element having rel attribute with a value of stylesheet and href </dd>
+    </p>
+ <h1> que 3.what do u mean by specifisity in css</h1>
+ <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element. <br>
+example 
+
+<htm>
+<head>
+  <style>
+    #demo {color: blue;}
+    .test {color: green;}
+    
+  </style>
+</head>
+<body>
+
+<p id="demo" class="test">Hello World!</p>
+
+</body>
+</html> <br>
+in this example the highest priroty goes to id wiht demo value and then to class selecotr and then to element selector which is p
+ </p>
+
+</body>
+</html>
